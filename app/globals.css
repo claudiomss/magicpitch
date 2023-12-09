@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+    /* font-size: 35%; */
+}
 body {
     /* max-width: 1440px; */
 }

@@ -11,7 +11,7 @@ import { Subsection } from '@/components/Subsection'
 export default function Home() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Header />
       <Subheader />
       <Section />

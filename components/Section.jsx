@@ -66,23 +66,23 @@ const Sect = ({ number, title, bgcolorAll, bgcolor, isFrame, frame }) => {
         backgroundColor: bgcolorAll,
         marginTop: '-3rem',
       }}
-      className="grid gap-[202px] place-items-center grid-cols-2 w-full h-[1104.85px]  text-white px-36 rounded-2xl   even:translate-y-[-20px] first:rounded-none  "
+      className="p-8 pt-16 text-center place-items-center grid-cols-2 w-full h-[60rem]  text-white  rounded-2xl   even:translate-y-[-20px] first:rounded-none  "
     >
       <section>
         <p>
-          <span className="bg-[#905CFF] w-[108.45px] h-[108.45px] rounded-full absolute ml-[-3rem] "></span>
+          {/* <span className="bg-[#905CFF] w-[108.45px] h-[108.45px] rounded-full absolute ml-[-3rem] "></span> */}
           <Image src={number} width={85} height={125} alt="number 1" />
         </p>
-        <h2 className="font-bold text-[64px] mt-[50px] leading-tight">
+        <h2 className="font-bold text-[24px] mt-[50px] leading-tight">
           {title}
         </h2>
-        <p className="text-[16px] mt-[25px] mb-[55px]">
+        <p className="text-[16px] mt-[20px] mb-[55px]">
           Dive deep into AI-powered precision with our unique ICP scoring
           mechanism. We meticulously match the Ideal Customer Profile (ICP) of
           our clients to every company within our extensive database of 70
           Million+ companies using advanced AI algorithms .
         </p>
-        <button className="text-[16px] flex items-center gap-4">
+        <button className="text-[16px] flex items-center gap-4 mb-8">
           Learn More
           <Image src={arrowright} width={10.53} height={14.03} alt="frame" />
         </button>
@@ -91,9 +91,16 @@ const Sect = ({ number, title, bgcolorAll, bgcolor, isFrame, frame }) => {
         style={{
           backgroundColor: isFrame ? bgcolor : '',
         }}
-        className="grid place-items-center w-[484px] h-[654px]  rounded-xl"
+        // className="grid place-items-center w-[484px] h-[654px]  rounded-xl"
+        className="grid place-items-center  rounded-xl"
       >
-        <Image src={frame} width={361} height={239} alt="frame" />
+        <Image
+          className="p-8"
+          src={frame}
+          width={361}
+          height={239}
+          alt="frame"
+        />
       </section>
     </main>
   )
