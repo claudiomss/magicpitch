@@ -61,7 +61,7 @@ export function Footer() {
   return (
     <main className=" grid-cols-7 px-20 py-16 text-center">
       <section className="col-span-3">
-        <article className="flex items-center gap-4">
+        <article className="flex justify-center items-center gap-4 ">
           <Image src={logo2} width={28.23} height={22.06} alt="logo" />
           <span className="font-extrabold text-[18px] text-[#753EE9]">
             magicpitch
@@ -94,7 +94,7 @@ export function Footer() {
         <p>Privacy Policy</p>
       </section>
 
-      <article className="flex px-10 gap-3 my-12">
+      <article className="flex justify-center px-10 gap-3 my-12">
         <button>
           <Image src={insta} width={18} height={18} alt="social" />
         </button>
@@ -105,7 +105,7 @@ export function Footer() {
           <Image src={twitter} width={18} height={18} alt="social" />
         </button>
       </article>
-      <p className="flex gap-2 text-[14px] text-[#353434] ">
+      <p className="flex justify-center gap-2 text-[14px] text-[#353434] ">
         <Image src={corporation} width={16} height={16} alt="c corporation" />
         2023 Magicpitch All Right Reversed
       </p>

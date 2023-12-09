@@ -7,14 +7,14 @@ import avatar3 from '@/assets/avatar3.svg'
 
 export function Depositions() {
   return (
-    <main className="px-8 my-16">
-      <h2 className="text-[#353434] text-[24px]  font-bold text-center">
+    <main className="px-8 lg:px-16 my-16 lg:my-40">
+      <h2 className="text-[#353434] text-2xl lg:text-[55px]  font-bold text-center lg:leading-none">
         Discover the Reasons Behind Our Clients Enthusiasm for MagicPitch
       </h2>
-      <p className="text-[#474646] text-[16px] text-center my-8">
+      <p className="text-[#474646] text-base lg:text-xl text-center my-8 md:mb-16">
         Delve into the MagicPitch Experience: Client Testimonials
       </p>
-      <section className="flex flex-col gap-4 justify-center">
+      <section className="flex flex-col gap-4 justify-center md:flex-row">
         <Card
           avatar={avatar1}
           name="John Doe"
@@ -45,9 +45,11 @@ const Card = ({ avatar, name, job, description }) => {
     // <main className="grid gap-2 p-8 w-[382.48px] bg-[#F9F9F9] rounded-xl">
     <main className="grid gap-2 p-8  bg-[#F9F9F9] rounded-xl">
       <Image src={avatar} width={48} height={48} alt="avatar" />
-      <h4 className="text-[#101828] text-[16px] font-semibold">{name}</h4>
-      <p className="text-[#6D7882] text-[13px] ">{job}</p>
-      <p className="text-[#101828] text-[13px]">{description}</p>
+      <h4 className="text-[#101828] text-base lg:text-lg font-semibold">
+        {name}
+      </h4>
+      <p className="text-[#6D7882] text-[13px] lg:text-[15px] ">{job}</p>
+      <p className="text-[#101828] text-[13px] lg:text-[15px]">{description}</p>
     </main>
   )
 }

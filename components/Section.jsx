@@ -66,17 +66,17 @@ const Sect = ({ number, title, bgcolorAll, bgcolor, isFrame, frame }) => {
         backgroundColor: bgcolorAll,
         marginTop: '-3rem',
       }}
-      className="p-8 pt-16 text-center place-items-center grid-cols-2 w-full h-[60rem]  text-white  rounded-2xl   even:translate-y-[-20px] first:rounded-none  "
+      className="lg:grid p-8 lg:pl-36 pt-16 text-center lg:text-start place-items-center grid-cols-2 w-full h-[60rem]  text-white  rounded-2xl   even:translate-y-[-20px] first:rounded-none  "
     >
       <section>
         <p>
           {/* <span className="bg-[#905CFF] w-[108.45px] h-[108.45px] rounded-full absolute ml-[-3rem] "></span> */}
           <Image src={number} width={85} height={125} alt="number 1" />
         </p>
-        <h2 className="font-bold text-[24px] mt-[50px] leading-tight">
+        <h2 className="font-bold  text-[24px] md:text-4xl lg:text-[64px] mt-[50px] lg:leading-tight">
           {title}
         </h2>
-        <p className="text-[16px] mt-[20px] mb-[55px]">
+        <p className="text-[16px]  mt-[20px] mb-[55px]">
           Dive deep into AI-powered precision with our unique ICP scoring
           mechanism. We meticulously match the Ideal Customer Profile (ICP) of
           our clients to every company within our extensive database of 70
