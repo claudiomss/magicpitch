@@ -48,8 +48,8 @@ export function Subsection() {
           // className="absolute  top-[800%] mobileL:top-[808%] mobileML:top-[818%] sm:top-[830%] md:top-[757%] left-[50%] md:left-[80%] translate-x-[-50%]"
           className="relative translate-x-[30vw] translate-y-[-55vw] 
           mobileL:translate-x-[35vw] mobileL:translate-y-[-60vw] sm:translate-x-[40vw] sm:translate-y-[-55vw] 
-          md:translate-x-[15vw] md:translate-y-[-25vw]
-          lg:translate-x-[12vw] lg:translate-y-[-22vw]"
+          md:translate-x-[15vw] md:translate-y-[-25vw] lg:translate-x-[12vw] lg:translate-y-[-22vw]
+          xl:translate-x-[8vw] xl:translate-y-[-14vw]"
           src={play}
           width={84.64}
           height={80.54}

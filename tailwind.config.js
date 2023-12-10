@@ -25,11 +25,11 @@ module.exports = {
 
       lg: '1024px',
       // => @media (min-width: 1024px) { ... }
-
-      xl: '1280px',
+      lgL: '1186px',
       // => @media (min-width: 1280px) { ... }
 
-      '2xl': '1536px',
+      xl: '1440px',
+      xll: '1640px',
     },
   },
   plugins: [],

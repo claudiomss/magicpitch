@@ -3,9 +3,9 @@ import iconemail1 from '@/assets/iconemail1.svg'
 
 export function Finalsection() {
   return (
-    <main className="lg:grid grid-cols-2  px-8 lg:px-20 md:px-20 text-center lg:text-start mt-16  overflow-hidden">
+    <main className="lg:grid grid-cols-2  px-8 lg:px-20 md:px-20 text-center lg:text-start mt-16  overflow-hidden xl:overflow-visible">
       <section className="grid content-center gap-8">
-        <h2 className="text-[24px] lg:text-[55px] text-[#353434] font-bold">
+        <h2 className="text-[24px]  lg:text-[55px] text-[#353434] font-bold">
           The Magicpitch Edge
         </h2>
         <p className="text-[17px] text-[#474646]">
@@ -15,9 +15,9 @@ export function Finalsection() {
         </p>
       </section>
       <section
-        className="grid max-w-sm lg:max-w-none m-auto lg:m-0 gap-4 lg:py-16 lg:pl-16 lg:pr-[25%]  
+        className="grid max-w-sm  lg:max-w-none m-auto lg:m-0 gap-4 lg:py-16 lg:pl-16 lg:pr-[25%]  
       lg:w-[140%] lg:translate-x-10  mt-8 p-8 content-center lg:content-start  bg-[#F5F5F5] 
-      rounded-[50px]  border-2 lg:border-[4rem] border-[#753EE9] "
+      rounded-[50px]  border-2 lg:border-[4rem] border-[#753EE9] lgL:py-28 lgL:pl-28"
       >
         <article className=" bg-[#E5E3E3] px-3 py-4 box-content w-[20px] m-auto lg:m-0 rounded-full">
           <Image src={iconemail1} width={30} height={30} alt="icon email" />

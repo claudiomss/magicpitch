@@ -8,18 +8,22 @@ import { Section } from '@/components/Section'
 import { Subheader } from '@/components/Subheader'
 import { Subsection } from '@/components/Subsection'
 
+import { ChakraProvider } from '@chakra-ui/react'
+
 export default function Home() {
   return (
-    <>
-      {/* <Navbar /> */}
-      <Header />
-      <Subheader />
-      <Section />
-      <Subsection />
-      <Finalsection />
-      <Depositions />
-      <Banner />
-      <Footer />
-    </>
+    <ChakraProvider>
+      <main className="max-w-[1440px] m-auto">
+        <Navbar />
+        <Header />
+        <Subheader />
+        <Section />
+        <Subsection />
+        <Finalsection />
+        <Depositions />
+        <Banner />
+        <Footer />
+      </main>
+    </ChakraProvider>
   )
 }
