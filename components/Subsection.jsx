@@ -36,9 +36,9 @@ export function Subsection() {
         </main>
       </section>
       {/* <section className="w-[491.14px] h-[574.64px]"> */}
-      <section className="">
+      <section>
         <Image
-          className="bg-[#E8E2F4] m-auto  rounded-[50px] md:mt-28"
+          className="bg-[#E8E2F4] m-auto hover:cursor-pointer rounded-[50px] md:mt-28"
           src={imagevideo}
           width={491.14}
           height={574.64}
@@ -46,7 +46,7 @@ export function Subsection() {
         />
         <Image
           // className="absolute  top-[800%] mobileL:top-[808%] mobileML:top-[818%] sm:top-[830%] md:top-[757%] left-[50%] md:left-[80%] translate-x-[-50%]"
-          className="relative translate-x-[30vw] translate-y-[-55vw] 
+          className="hover:cursor-pointer relative translate-x-[30vw] translate-y-[-55vw] 
           mobileL:translate-x-[35vw] mobileL:translate-y-[-60vw] sm:translate-x-[40vw] sm:translate-y-[-55vw] 
           md:translate-x-[15vw] md:translate-y-[-25vw] lg:translate-x-[12vw] lg:translate-y-[-22vw]
           xl:translate-x-[8vw] xl:translate-y-[-14vw]"

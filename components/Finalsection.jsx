@@ -19,7 +19,7 @@ export function Finalsection() {
       lg:w-[140%] lg:translate-x-10  mt-8 p-8 content-center lg:content-start  bg-[#F5F5F5] 
       rounded-[50px]  border-2 lg:border-[4rem] border-[#753EE9] lgL:py-28 lgL:pl-28"
       >
-        <article className=" bg-[#E5E3E3] px-3 py-4 box-content w-[20px] m-auto lg:m-0 rounded-full">
+        <article className="cursor-pointer bg-[#E5E3E3] px-3 py-4 box-content w-[20px] m-auto lg:m-0 rounded-full">
           <Image src={iconemail1} width={30} height={30} alt="icon email" />
         </article>
         <h2 className="text-xl lg:text-3xl text-[#383838] font-bold">

@@ -15,7 +15,7 @@ export function Header() {
         hyper personalized effective
       </p>
       <button
-        className="flex text-[12px] md:text-sm lg:text-base xl:text-lg gap-2 bg-[#753EE9] text-white 
+        className="flex text-[12px] md:text-sm lg:text-base xl:text-lg gap-2 bg-[#753EE9] transition-all hover:bg-[#9768fd] text-white 
       items-center px-3 py-2 md:px-6 md:py-4 rounded-full m-auto"
       >
         <Image

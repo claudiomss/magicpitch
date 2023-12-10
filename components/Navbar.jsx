@@ -18,6 +18,7 @@ import {
 import { Menu, MenuButton, MenuList, MenuItem, Button } from '@chakra-ui/react'
 
 import { useMediaQuery } from '@chakra-ui/react'
+import Link from 'next/link'
 
 export function Navbar() {
   const [isLarge] = useMediaQuery('(min-width: 1024px)')
@@ -26,15 +27,17 @@ export function Navbar() {
     return (
       <>
         <main className="text-[#2E2E2E] flex items-center justify-around px-16 pt-8 mb-28 ">
-          <section className="flex items-center gap-4">
-            <Image src={logo} width={34.78} height={34.78} alt="logo" />
-            <span className="font-bold text-[15.5px]  ">magicpitch</span>
-          </section>
+          <Link href="/">
+            <section className="flex items-center gap-4">
+              <Image src={logo} width={34.78} height={34.78} alt="logo" />
+              <span className="font-bold text-[15.5px]  ">magicpitch</span>
+            </section>
+          </Link>
           <NavWindow />
 
           <section className="flex items-center gap-12">
             <p className="font-semibold text-[14px] ">Book a Demo</p>
-            <button className="bg-[#753EE9] text-white font-medium text-[14px]  py-1 px-8 lg:py-3 lg:px-8 rounded-2xl">
+            <button className="bg-[#753EE9] transition-all hover:bg-[#9768fd] text-white font-medium text-[14px]  py-1 px-8 lg:py-3 lg:px-8 rounded-2xl">
               Get Started
             </button>
           </section>
@@ -45,10 +48,12 @@ export function Navbar() {
   return (
     <>
       <main className="text-[#2E2E2E] grid justify-center  pt-4 mb-28 ">
-        <section className="flex items-center gap-4">
-          <Image src={logo} width={34.78} height={34.78} alt="logo" />
-          <span className="font-bold text-[15.5px]  ">magicpitch</span>
-        </section>
+        <Link href="/">
+          <section className="flex items-center gap-4">
+            <Image src={logo} width={34.78} height={34.78} alt="logo" />
+            <span className="font-bold text-[15.5px]  ">magicpitch</span>
+          </section>
+        </Link>
         <section className="z-10 absolute top-16 w-full left-0 bg-white">
           <NavMobile />
         </section>

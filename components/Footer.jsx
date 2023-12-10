@@ -24,23 +24,43 @@ export function Footer() {
           </p>
         </section>
 
-        <section className="text-[14px] xl:text-base font-semibold text-[#353434]">
-          Plataform
+        <section className="text-[14px] xl:text-base font-semibold text-[#353434] ">
+          <a className="transition-all hover:underline" href="#">
+            Plataform
+          </a>
         </section>
         <section className="text-[14px] xl:text-base my-4 lg:m-0 font-semibold text-[#353434]">
-          Solution
+          <a className="transition-all hover:underline" href="#">
+            Solution
+          </a>
         </section>
         <section className="flex  flex-col gap-4 text-[14px] xl:text-base text-[#353434]">
-          <p className="font-semibold ">Company</p>
-          <p>About us</p>
-          <p>Blog</p>
-          <p>Careers</p>
+          <a href="#" className="font-semibold transition-all hover:underline ">
+            Company
+          </a>
+          <a className="transition-all hover:underline" href="#">
+            About us
+          </a>
+          <a className="transition-all hover:underline" href="#">
+            Blog
+          </a>
+          <a className="transition-all hover:underline" href="#">
+            Careers
+          </a>
         </section>
         <section className="flex my-4 lg:m-0 flex-col gap-4 text-[14px] xl:text-base text-[#353434]">
-          <p className="font-semibold ">Resources</p>
-          <p>Contact</p>
-          <p>Terms of service</p>
-          <p>Privacy Policy</p>
+          <a href="#" className="font-semibold transition-all hover:underline">
+            Resources
+          </a>
+          <a className="transition-all hover:underline" href="#">
+            Contact
+          </a>
+          <a className="transition-all hover:underline" href="#">
+            Terms of service
+          </a>
+          <a className="transition-all hover:underline" href="#">
+            Privacy Policy
+          </a>
         </section>
       </main>
 

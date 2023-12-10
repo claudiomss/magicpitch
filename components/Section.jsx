@@ -81,7 +81,7 @@ const Sect = ({ number, title, bgcolorAll, bgcolor, isFrame, frame }) => {
           our clients to every company within our extensive database of 70
           Million+ companies using advanced AI algorithms .
         </p>
-        <button className="text-[16px] xl:text-lg  flex items-center gap-4 mb-8">
+        <button className="text-[16px] xl:text-lg  flex items-center gap-4 mb-8 transition-all  hover:underline">
           Learn More
           <Image src={arrowright} width={10.53} height={14.03} alt="frame" />
         </button>

@@ -10,7 +10,7 @@ export function Banner() {
           <h2 className="text-[#382E2E] text-[22px] xl:text-[45px] font-bold">
             Get your Ideal Customers Convert your Leads Increase Engagement
           </h2>
-          <button className="flex m-auto md:m-0 md:mt-8 gap-4 text-[10px] md:text-xs lg:text-sm xl:text-lg bg-[#753EE9] text-white items-center px-3 py-1 md:px-6 md:py-3 rounded-full mt-8">
+          <button className="flex m-auto md:m-0 md:mt-8 gap-4 text-[10px] md:text-xs lg:text-sm xl:text-lg bg-[#753EE9] transition-all hover:bg-[#9768fd] text-white items-center px-3 py-1 md:px-6 md:py-3 rounded-full mt-8">
             Book A Demo
             <Image className=" w-5 xl:w-8" src={iconplane} alt="iconplane" />
           </button>

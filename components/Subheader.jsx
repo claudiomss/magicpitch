@@ -20,10 +20,12 @@ export function Subheader() {
           sm:mt-[-18rem] sm:h-[15rem] sm:pt-12 md:mt-[-22rem] md:h-[18rem] md:pt-20
           lg:mt-[-28rem] lg:h-[28rem] lg:pt-36 xl:mt-[-40rem] xl:h-[37rem] xl:pt-56"
         >
-          <h3 className="font-bold text-[0.8rem] sm:text-[1rem] md:text-xl lg:text-5xl text-white px-20 text-center mt-12 lg:px-60">
-            {/* <span className="bg-[#905CFF] w-[2rem] h-[2rem] rounded-full absolute ml-[-1rem]"></span> */}
-            Get your ideal Customers
-          </h3>
+          <div className="grid ">
+            {/* <span className="bg-[#905CFF]  w-[2rem] h-[2rem] rounded-full  translate-x-[23rem] translate-y-[5rem] absolute z-10 " /> */}
+            <h3 className="font-bold text-[0.8rem] sm:text-[1rem] md:text-xl lg:text-5xl text-white px-20 text-center mt-12 lg:px-60 z-20">
+              Get your ideal Customers
+            </h3>
+          </div>
         </section>
         <section className="grid justify-center md:flex md:gap-4 lg:gap-8 mt-[1rem] mb-[5rem] md:mt-20 md:mb-40 lg:mt-32 lg:mb-56">
           <Card
