@@ -21,7 +21,7 @@
 <a id="1-Descrição-do-projeto"></a>
 ##  :memo: Descrição do projeto 
 
-O projeto **Magicpitch** é uma Landing Page baseado numa demanda do cliente em uma plataforma de Freelas, foi fornecida um design no **Figma** e  as **Stacks** que deveriam ser utilizadas.
+O projeto Magicpitch é uma landing page desenvolvida com base em uma demanda de cliente em uma plataforma de freelancing. O cliente forneceu um design pré-definido no Figma, resultando em um site tradicional e eficiente, que atende aos requisitos visuais e funcionais propostos.
 
 ---
 <a id="2-Deploy-da-Aplicação"></a>
